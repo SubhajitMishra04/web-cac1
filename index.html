@@ -9,6 +9,31 @@
   <link rel="stylesheet" href="./style.css">
 
   <style>
+
+  
+
+     input[type=checkbox] {
+         position: relative;
+	       cursor: pointer;
+         width: 17px;
+         height: 16px;
+         left: 10%;
+         bottom: -0.85cm;
+         border: 2px solid #555555;
+    }
+
+
+    input[type=radio] {
+         position: relative;
+	       cursor: pointer;
+         width: 17px;
+         height: 16px;
+         left: 10%;
+         bottom: -0.85cm;
+         border: 2px solid #555555;
+    }
+
+
     section {
         width: 1200px;
         height: 300px;
@@ -116,43 +141,46 @@
         <span></span>
       </div>
       <div>
-        <input type="checkbox" id="christ1" name="christ1" value="student">
-  <label for="christ1"> student</label><br>
+        <input type="text" placeholder="address">
+      </div>
+      <div>
+        <input type="text" placeholder="comments">
+      </div>
+      <div style="background-color: rgba(255, 228, 196, 0.329);">
+  <input type="checkbox" id="christ1" name="christ1" value="student">
+  <label for="christ1"> student</label>
   <input type="checkbox" id="christ2" name="christ2" value="location">
-  <label for="christ2"> location</label><br>
+  <label for="christ2"> location</label>
   <input type="checkbox" id="christ3" name="christ3" value="campus">
   <label for="christ3"> campus</label>
   <input type="checkbox" id="christ4" name="christ4" value="atmosphere">
-  <label for="christ4"> student</label><br>
+  <label for="christ4"> student</label>
   <input type="checkbox" id="christ5" name="christ5" value="dorm-room">
-  <label for="christ5"> dorm-room</label><br>
+  <label for="christ5"> dorm-room</label>
   <input type="checkbox" id="christ6" name="christ6" value="sports">
   <label for="christ6"> sports</label>
   <br>
       </div>
 
       <div>
-        <p>select</p>
         <input type="radio" id="friends" name="select" value="friends">
-   <label for="friends">friends</label><br>
-  <input type="radio" id="television" name="select" value="television">
-  <label for="television">television</label><br>
-  <input type="radio" id="Internet" name="select" value="Internet">
-  <label for="Internet"> Internet</label>
-<input type="radio" id="other" name="select" value="other">
-  <label for="other">other</label>
+        <label for="friends">friends</label>
+         <input type="radio" id="television" name="select" value="television">
+          <label for="television">television</label>
+           <input type="radio" id="Internet" name="select" value="Internet">
+           <label for="Internet"> Internet</label>
+           <input type="radio" id="other" name="select" value="other">
+           <label for="other">other</label>
 
 
       </div>
 
-      <div>
-        <input type="text" placeholder="comments">
-      </div>
+      
 
 
       
-      <input type="submit" value="Submit">
-      <input type="reset">
+      <div><input type="submit" value="Submit"></div>
+      <div><input type="reset"></div>
     </form>
     <br>
 
